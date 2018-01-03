@@ -1,0 +1,311 @@
+* {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+/*  navbar  */
+.navbar-default {
+    background-color: #ffffff00;
+    border-color: #ffffff00;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.navbar-default .navbar-brand {
+    color: #3bc8d9;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand span{
+    color: white;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #3bc8d9;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #3bc8d9;
+    transition: 0.4s ease;
+}
+/*  slider  */
+.carousel-inner > .item > img
+    {
+        width: 100%;
+        height: 100vh;
+    }
+.carousel-caption {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 615px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+.btn-custom {
+    color: white;
+    background: #3bc8d9;
+    padding: 15px 58px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    background: #3ca4af;
+    color: white;
+    transition: 0.4s ease;
+}
+/*  About Us    */
+.about-us {
+    background: #fafafa;
+    min-height: 95vh;
+}
+.about-head {
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.about-head h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.about-head p {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.about-img{
+}
+.about-img img {
+    width: 100%;
+    margin-top: 38px;
+}
+.about-des{
+    width: 100%;
+}
+.about-des h3 {
+    margin-bottom: 30px;
+}
+.about-des p {
+    margin-bottom: 15px;
+}
+/*  porfolio    */
+.portfolio-section{
+    background: #f4f4f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.portfolio-head {
+
+    margin-bottom: 35px;
+}
+.portfolio-head h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.portfolio-head p {
+    margin: 0 auto;
+    width: 50%;
+    color: darkgray;
+}
+.portfolio-thumbnail {
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.portfolio-img{
+    position: relative;
+}
+.portfolio-img img{
+    width: 100%;
+}
+.portfolio-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.portfolio-overlay a {
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    opacity: 0;
+}
+.portfolio-img:hover .portfolio-overlay a, .portfolio-overlay:hover{
+    opacity: 1;
+    background: rgba(128, 128, 128, 0.534);
+    transition: 0.4s ease;
+}
+.portfolio-thumbnail .caption {
+    padding: 0px 10px;
+}
+.caption{}
+.caption ul{}
+.caption ul li{}
+.caption ul li h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.caption ul li p {
+    font-size: 12px;
+    margin-left: 130px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: darkgrey;
+}
+/*  services*/
+.services-section {
+    background: #fafafa;
+    min-height: 90vh;
+}
+.services-head {
+    margin-bottom: 50px;
+}
+.services-head h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.services-head p {
+    width: 50%;
+    margin: 0 auto;
+    color: darkgray;
+}
+.services-category {
+    border: 1px solid #eeeeee;
+    background: white;
+    padding-top: 20px;
+    margin: 0px 6px;
+}
+.service-thumb i {
+    font-size: 40px;
+    color: #3bc8d9;
+    margin-top: 10px;
+}
+.service-thumb h3 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.service-thumb p {
+    font-size: 13px;
+    width: 84%;
+    margin: 0 auto;
+    color: #2b2b2b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.service-thumb a {
+    text-decoration: none;
+    padding: 8px 20px;
+    color: white;
+    background: #4c4a4d;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.services-category:hover{
+    border: none;
+    background: #3bc8d9;
+}
+.services-category:hover .service-thumb i{
+    color: white;
+}
+.services-category:hover .service-thumb h3{
+    color: white;
+}
+.services-category:hover .service-thumb p{
+    color: white;
+}
+.services-category:hover .service-thumb a{
+    color: #4c4a4d;
+    background: white;
+}
+/* contact us */
+.contact-section{
+    background: #f4f4f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact-head{
+    margin-bottom: 50px;
+}
+.contact-head h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.contact-head p{
+    width: 50%;
+    margin: 0 auto;
+    color: darkgray;
+}
+.contact-info{}
+.contact-info h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact-info h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact-info p {
+    color: darkgray;
+    margin-bottom: 20px;
+}
+.contact-info span {
+    color: darkgray;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.contact-form{}
+.form-group{}
+.form-control{
+    border-color: #dadada;
+}
+/* footer */
+footer{
+    background: #3bc8d9;
+}
+footer h4 {
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
